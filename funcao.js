@@ -43,7 +43,7 @@ function geraSenhas() {
 	var t = 0
 
 	while (t < qtdLetrasMinusculas) {
-		senhaLetrasMinusculas.push(letrasMinusculas[Math.floor(Math.random() * 22)])
+		senhaLetrasMinusculas.push(letrasMinusculas[Math.floor(Math.random() * 25)])
 		t++
 	}
 	senhaLetrasMinusculas = senhaLetrasMinusculas.toString().replace(/,/g,"")
